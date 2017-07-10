@@ -54,7 +54,7 @@ if __name__ == "__main__":
     except:
         fileName = input(">>>").replace("\"","")
     if "\\" in fileName:
-        root = fileName.replace(".rpa","") + "/"
+        root = fileName.replace(".rpa","").replace("\\","/") + "/"
     else:
         root = fileName.replace(".rpa","") + "/"
     index = indexArchive(fileName)
