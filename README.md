@@ -9,6 +9,7 @@ A simple extractor for RenPY's .rpa archive.
 或者Or:
 
 >python rpa.py
+
 >\>\>\>c:\\\\example.rpa
 
 非常非常非常简单的rpa解压工具
