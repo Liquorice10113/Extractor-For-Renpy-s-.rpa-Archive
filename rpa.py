@@ -52,7 +52,7 @@ if __name__ == "__main__":
     try:
        fileName = argv[1].replace("\"","")
     except:
-        fileName = input("输入文件完整路径>>>").replace("\"","")
+        fileName = input(">>>").replace("\"","")
     if "\\" in fileName:
         root = fileName.replace(".rpa","") + "/"
     else:
