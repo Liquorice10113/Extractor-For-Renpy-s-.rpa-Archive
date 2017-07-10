@@ -3,8 +3,11 @@ A simple extractor for RenPY's .rpa archive.
 简单的renpy rpa文件解压工具.
 
 用法Usage:
->python rpa.py c:\\\\example.rpa 
+
+>python rpa.py c:\\\\example.rpa
+
 或者Or:
+
 >python rpa.py
 >\>\>\>c:\\\\example.rpa
 
